@@ -1,0 +1,16 @@
+# Environment & Python artifacts
+.venv/
+__pycache__/
+*.pyc
+
+# Heavy data & archives
+dataset/
+raw_data/
+archive.zip
+dataset.zip
+*.zip
+
+# Model weights
+*.pt
+*.onnx
+EOF
