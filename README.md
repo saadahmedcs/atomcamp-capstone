@@ -15,7 +15,7 @@ An end-to-end computer vision pipeline and edge-ready serving engine designed fo
 ---
 
 ## Repository Structure
-
+```
 weed-detector-capstone/
 ├── .gitignore               # Excludes datasets, caches, venv, and binary weights
 ├── requirements.txt         # Production and training dependency specifications
@@ -24,6 +24,7 @@ weed-detector-capstone/
 ├── check_labels.py          # Bounding-box coordinate sanity visualizer
 ├── weed_detector.ipynb      # Cloud training and evaluation workflow (Google Colab)
 └── app.py                   # FastAPI inference backend & diagnostic dashboard
+```
 
 ---
 
